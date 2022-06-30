@@ -3,32 +3,45 @@
   <head>
     <title>Free Code Camp survey</title>
   </head>
-<!--You should have a page title in an h1 element with an id of title-->
-<!--You should have a short explanation in a p element with an id of description-->
-<!--You should have a form element with an id of survey-form-->
   <body>
-    <h1>Free Code Camp Survey</h1>
+    <!--You should have a page title in an h1 element with an id of title-->
+    <h1 id="title">Free Code Camp Survey</h1>
+    <!--You should have a short explanation in a p element with an id of description-->
     <p id="description">Survey form using basic html and CSS</p>
-    <form>
+    <!--You should have a form element with an id of survey-form-->
+    <form id="survey-form">
 <!--Inside the form element, you are required to enter your name in an input field that has an id of name and a type of text-->
       <div class="formIn">
         <label id="name-label">Name</label>
-        <input id="name" type="text"></input>
+        <input id="name" type="text">
 <!--Inside the form element, you are required to enter your email in an input field that has an id of email-->
         <label id="email-label">Email</label>
-        <input id="email" type="email" pattern=".+@.+\.com" >
 <!--If you enter an email that is not formatted correctly, you will see an HTML5 validation error-->
+        <input id="email" type="email" pattern=".+@.+\.com" >
 <!--Inside the form, you can enter a number in an input field that has an id of number-->
         <label id="number-label">Please input a number between 2 and 2992</label>
-        <input id="number" type="number" min="2" max="2992">
 <!--If you enter non-numbers in the number input, you will see an HTML5 validation error-->
+        <input id="number" type="number" min="2" max="2992">
 <!--If you enter numbers outside the range of the number input, which are defined by the min and max attributes, you will see an HTML5 validation error-->
 <!--For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label"-->
 <!--For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field-->
 <!--Inside the form element, you should have a select dropdown element with an id of dropdown and at least two options to choose from-->
+        <select>
+          <option></option>
+          <option></option>
+        </select>
 <!--Inside the form element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute-->
+        <input type="radio">
+        <label>oop</label>
+        <input type="radio">
+        <label>opp</label>
 <!--Inside the form element, you can select several fields from a series of checkboxes, each of which must have a value attribute-->
+        <input type="checkbox" value="1">
+        <input type="checkbox" value="2">
+        <input type="checkbox" value="3">
 <!--Inside the form element, you are presented with a textarea for additional comments-->
+        <input type="text">        
+        <input type="submit">
       </div>
 <!--Inside the form element, you are presented with a button with id of submit to submit all the inputs-->
     </form>
