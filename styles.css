@@ -1,0 +1,44 @@
+h1 element with an id of title
+#title should not be empty
+p element with an id of description
+#description should not be empty
+form element with an id of survey-form
+input element with an id of name
+#name type of text
+#name should require input
+#name should be a descedant of #survey-form
+input element with an id of email
+#email type of email
+#email should require input
+#email should be a descedant of #survey-form
+input element with an id of number
+#number should be a descedant of #survey-form
+#number type of number
+#number min attribute with a numeric value
+#number max attribute with a numeric value
+label element with an id of name-label
+label element with an id of email-label
+label element with an id of number-label
+#name-label should not be empty
+#email-label should not be empty
+#number-label should not be empty
+#name-label should be a descedant of #survey-form
+#email-label should be a descedant of #survey-form
+#number-label should be a descedant of #survey-form
+#name placeholder attribute and value
+#email placeholder attribute and value
+#number placeholder attribute and value
+select field with an id of dropdown
+#dropdown should have at least two selectable (not disabled) option elements
+#dropdown should be a descendant of #survey-form
+should have at least two input elements with a type of radio (radio buttons)
+should have at least two radio buttons that are descendants of #survey-form
+All radio buttons value attribute and value
+All radio buttons name attribute and value
+Every radio button group should have at least 2 radio buttons
+should have at least two input elements with a type of checkbox (checkboxes) that are descendants of #survey-form
+All checkboxes inside #survey-form value attribute and value
+should have at least one textarea element that is a descendant of #survey-form
+input or button element with an id of submit
+#submit type of submit
+#submit should be a descendant of #survey-form
